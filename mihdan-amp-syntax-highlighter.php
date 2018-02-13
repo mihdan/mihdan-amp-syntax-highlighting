@@ -1,11 +1,19 @@
 <?php
 /**
  * Plugin Name: Mihdan: AMP Syntax Highlighter
+ * Description: WordPress плагин для подсветки синтаксиса на AMP-страницах
+ * Plugin URI: https://www.kobzarev.com
+ * Author: Mikhail Kobzarev
+ * Author URI: https://www.kobzarev.com
+ * Version: 1.0.0
+ *
  * GitHub Plugin URI: https://github.com/mihdan/mihdan-amp-syntax-highlighting
- * Version 1.0.0
  *
  * @link https://portalzine.de/dev/html5/google-amp/make-syntax-highlighting-work-in-amp-wp-using-geshi/amp/
  */
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
 define( 'MIHDAN_AMP_PATH', plugin_dir_path( __FILE__ ) );
 define( 'MIHDAN_AMP_DIR', plugin_dir_url( __FILE__ ) );
